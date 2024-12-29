@@ -2,7 +2,7 @@
 from pymongo import MongoClient
 import requests
 
-API_KEY = "e2e8d3ced29bfe53f61ed2c720cc6960"
+API_KEY = "votre API KEY"
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 # Liste des 60 villes les plus peuplées de France
