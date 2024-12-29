@@ -84,8 +84,8 @@ python app/__init__.py
 - **Alyssa, Alexy, Solène, Maryline, Kenzo**
 
 
-Chef de projet : Alyssa DERENSY 
-Développeur Backend : Kenzo SALAUN, Maryline FONTA , Alyssa DERENSY, 
-Intégrateur API : Solène ISSANES 
-Spécialiste DevOps :  Maryline FONTA, Alyssa DERENSY,  Alexy GABORIAUD
-Analyste de données : Maryline FONTA, Solène ISSANES
+Chef de projet : Alyssa DERENSY <br>
+Développeur Backend : Kenzo SALAUN, Maryline FONTA , Alyssa DERENSY <br>
+Intégrateur API : Solène ISSANES <br>
+Spécialiste DevOps :  Maryline FONTA, Alyssa DERENSY,  Alexy GABORIAUD <br>
+Analyste de données : Maryline FONTA, Solène ISSANES <br>
