@@ -18,65 +18,47 @@ L'objectif est de collecter des données météorologiques via l'API OpenWeather
 Assurez-vous d'avoir installé les outils suivants :
 1. **Python 3.x** : Téléchargez depuis [python.org](https://www.python.org/).
 2. **MongoDB** : Téléchargez depuis [mongodb.com](https://www.mongodb.com/try/download/community).
-3. **Docker** : Téléchargez depuis [docker.com](https://www.docker.com/products/docker-desktop).
-4. **Pip** : Géré par défaut avec Python pour installer les bibliothèques.
+3. **Docker Desktop** : Téléchargez depuis [docker.com](https://www.docker.com/products/docker-desktop).
 
 ### Installation
 
 #### 1. Cloner le projet
 Cloner ce dépôt sur votre machine locale :
 ```bash
-git clone <url-du-dépôt>
+git clone https://github.com/AlyssaDerensy/pipeline_weather
 cd weather_pipeline
 ```
 
-#### 2. Configurer l'environnement Python
-Créer et activer un environnement virtuel :
+#### 2. Utilisation
+
+##### 2.1 Conteunarisation avec Docker
+Démarrez Docker Desktop
+Dans un terminal python, lancez :
+
 ```bash
-python -m venv venv
-source venv/bin/activate   # Sous macOS/Linux
-venv\Scripts\activate      # Sous Windows
+docker-compose up --build
 ```
 
-#### 3. Installer les dépendances
-Installez les bibliothèques nécessaires :
-```bash
-pip install flask pymongo requests dash plotly
-```
+Un conteneur va apparaître dans Docker Desktop, vous pouvez accéder aux lien du tableau de bord en cliquant dessus et en cliquant sur le port de "pipeline_weather_4" (8050:8050)
+[alt text](image.png)
 
-#### 4. Lancer MongoDB
-Démarrez le serveur MongoDB localement ou configurez un cluster cloud via [MongoDB Atlas](https://www.mongodb.com/atlas).
+#### 3. Fonctionnalité
 
-#### 5. Structure du projet
+- Ajout de données métérologies du jour-même pour les 60 villes les plus peuplés de France
+
+#### 3. Structure du projet
 Voici la structure actuelle du projet :
 ```plaintext
 weather_pipeline/
 ├── app/
-│   ├── __init__.py         # Initialisation de l'application Flask
-│   ├── routes.py           # Les routes Flask
-│   ├── database.py         # Gestion des interactions avec MongoDB
-├── static/                 # Fichiers statiques comme CSS ou JavaScript
+|   ├── static/                 # Fichiers statiques comme CSS ou JavaScript
 ├── templates/              # Modèles HTML pour le front-end
-├── data/                   # Données brutes ou fichiers de configuration
+├── Data/                   # Données brutes ou fichiers de configuration
 ├── Dockerfile              # Fichier Docker pour conteneuriser l'application
 ├── docker-compose.yml      # Configuration pour orchestrer MongoDB et Flask
 ├── requirements.txt        # Liste des dépendances Python
 └── README.md               # Documentation du projet
 ```
-
-#### 6. Lancer l'application Flask (temporaire)
-Pour tester Flask (avant l'implémentation des routes) :
-```bash
-python app/__init__.py
-```
-
----
-
-## Prochaines étapes
-1. Implémenter un script pour interroger l'API OpenWeather et collecter des données.
-2. Configurer MongoDB pour stocker ces données.
-3. Créer un tableau de bord interactif avec Dash et Plotly.
-4. Déployer l'application avec Docker.
 
 ---
 
