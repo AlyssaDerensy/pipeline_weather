@@ -40,7 +40,6 @@ docker-compose up --build
 ```
 
 Un conteneur va apparaître dans Docker Desktop, vous pouvez accéder aux lien du tableau de bord en cliquant dessus et en cliquant sur le port de "pipeline_weather_4" (8050:8050)
-[alt text](image.png)
 
 #### 3. Fonctionnalité
 
