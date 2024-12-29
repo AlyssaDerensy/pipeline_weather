@@ -1,0 +1,9 @@
+# Ignore les fichiers de log
+*.log
+
+# Ignore les répertoires spécifiques
+/node_modules/
+/dist/
+
+# Ignore les fichiers système
+.DS_Store
