@@ -96,7 +96,7 @@ app.Accueil_layout = html.Div([
             html.H2(html.U("Membres de l'équipe"), style={"color": "#4a4e69", "marginBottom": "15px"}),
             html.Ul([
                 html.Li("Alexy GABORIAUD", style={"fontSize": "18px", "marginBottom": "5px"}),
-                html.Li("Alyssa DERENSY-Guy", style={"fontSize": "18px", "marginBottom": "5px"}),
+                html.Li("Alyssa DERENSY", style={"fontSize": "18px", "marginBottom": "5px"}),
                 html.Li("Kenzo SALAUN", style={"fontSize": "18px", "marginBottom": "5px"}),
                 html.Li("Maryline FONTA", style={"fontSize": "18px", "marginBottom": "5px"}),
                 html.Li("Solène ISSANES", style={"fontSize": "18px", "marginBottom": "5px"})
