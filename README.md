@@ -19,7 +19,7 @@ Assurez-vous d'avoir installé les outils suivants :
 1. **Python 3.x** : Téléchargez depuis [python.org](https://www.python.org/).
 2. **MongoDB** : Téléchargez depuis [mongodb.com](https://www.mongodb.com/try/download/community).
 3. **Docker Desktop** : Téléchargez depuis [docker.com](https://www.docker.com/products/docker-desktop).
-4. **IDE Python** : Comme Visual Studio Code [code.visualstudio.com](https://code.visualstudio.com/).
+4. **IDE Python** : Comme Visual Studio Code depuis [code.visualstudio.com](https://code.visualstudio.com/).
 
 ### Installation
 
