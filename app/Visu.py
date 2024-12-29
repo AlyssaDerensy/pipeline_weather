@@ -26,6 +26,11 @@ def get_data_from_mongodb():
     df = pd.DataFrame(data)
     if "_id" in df.columns:
         df.drop("_id", axis=1, inplace=True)  # Supprimer la colonne MongoDB "_id"
+    
+    # Modifier la valeur de Longitude et la latitude pour Brest
+    df.loc[df['Ville'] == "Brest", 'Longitude'] = -4.5000
+    df.loc[df['Ville'] == "Brest", 'Latitude'] = 48.4000
+    
     return df
 print("debut init dash")
 
