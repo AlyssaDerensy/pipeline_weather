@@ -40,24 +40,24 @@ Dans un terminal python, positionnez-vous dans la racine du projet, lancez :
 docker-compose up --build
 ```
 
-Un conteneur va apparaître dans Docker Desktop, vous pouvez accéder aux lien du tableau de bord en cliquant dessus et en cliquant sur le port de "pipeline_weather_4" (8050:8050)
+Un conteneur va apparaître dans Docker Desktop, vous pouvez accéder au lien local du tableau de bord en cliquant dessus puis en appuyant sur le port de "pipeline_weather_4" (8050:8050)
 
 #### 3. Fonctionnalité
 
-- Ajout de données métérologies du jour-même pour les 60 villes les plus peuplés de France
+- Tableau de bord dynamique
 
 #### 3. Structure du projet
 Voici la structure actuelle du projet :
 ```plaintext
 weather_pipeline/
 ├── app/
-|   ├── static/                 # Fichiers statiques comme CSS ou JavaScript
+|   ├── static/                 # Fichiers statiques comme la documentation
 ├── templates/              # Modèles HTML pour le front-end
 ├── Data/                   # Données brutes ou fichiers de configuration
 ├── Dockerfile              # Fichier Docker pour conteneuriser l'application
 ├── docker-compose.yml      # Configuration pour orchestrer MongoDB et Flask
 ├── requirements.txt        # Liste des dépendances Python
-└── README.md               # Documentation du projet
+└── README.md               # Description et utilisation du projet
 ```
 
 ---
