@@ -19,6 +19,7 @@ Assurez-vous d'avoir installé les outils suivants :
 1. **Python 3.x** : Téléchargez depuis [python.org](https://www.python.org/).
 2. **MongoDB** : Téléchargez depuis [mongodb.com](https://www.mongodb.com/try/download/community).
 3. **Docker Desktop** : Téléchargez depuis [docker.com](https://www.docker.com/products/docker-desktop).
+4. **IDE Python** : Comme Visual Studio Code [code.visualstudio.com]https://code.visualstudio.com/
 
 ### Installation
 
@@ -32,8 +33,8 @@ cd weather_pipeline
 #### 2. Utilisation
 
 ##### 2.1 Conteunarisation avec Docker
-Démarrez Docker Desktop
-Dans un terminal python, lancez :
+Démarrez Docker Desktop <br>
+Dans un terminal python, positionnez-vous dans la racine du projet, lancez :
 
 ```bash
 docker-compose up --build
