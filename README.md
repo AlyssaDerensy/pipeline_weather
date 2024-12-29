@@ -84,18 +84,8 @@ python app/__init__.py
 - **Alyssa, Alexy, Solène, Maryline, Kenzo**
 
 
-1. Chef de Projet : (Alyssa)
-    o Coordination des tâches.
-    o Rédaction de la documentation.
-2. Développeur Backend : (Alexy)
-    o Implémentation des routes Flask.
-    o Gestion des interactions avec MongoDB.
-3. Intégrateur API : (Solène)
-    o Écriture du script de collecte de données depuis l’API Open Weather.
-    o Gestion des erreurs et des cas limites.
-4. Spécialiste DevOps : (Kenzo)
-    o Configuration et optimisation des fichiers Docker.
-    o Gestion du déploiement.
-5. Analyste de Données : (Maryline)
-    o Création des visualisations et du tableau de bord interactif.
-    o Analyse des données pour produire des insights pertinents.
+Chef de projet : Alyssa DERENSY 
+Développeur Backend : Kenzo SALAUN, Maryline FONTA , Alyssa DERENSY, 
+Intégrateur API : Solène ISSANES 
+Spécialiste DevOps :  Maryline FONTA, Alyssa DERENSY,  Alexy GABORIAUD
+Analyste de données : Maryline FONTA, Solène ISSANES
