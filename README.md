@@ -68,8 +68,6 @@ Un conteneur va apparaître dans Docker Desktop, vous pouvez accéder au lien lo
 
 - Tableau de bord dynamique
 
-```
-
 ---
 
 ## Auteurs
