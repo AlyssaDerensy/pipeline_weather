@@ -38,6 +38,7 @@ weather_pipeline/
 ├── docker-compose.yml      # Configuration pour orchestrer MongoDB et Flask
 ├── requirements.txt        # Liste des dépendances Python
 └── README.md               # Description et utilisation du projet
+```
 
 ### Installation
 
