@@ -26,11 +26,11 @@ Voici la structure actuelle du projet :
 ```plaintext
 weather_pipeline/
 ├── app/
-|   ├── static/             # Fichiers statiques comme la documentation
+|   ├── static/                 # Fichiers statiques comme la documentation
 |   |   ├── documentation.pdf                 
-|   ├── Data_MongoDB.py
-|   ├── Main.py
-|   ├── Visu.py
+|   ├── Data_MongoDB.py         # Algorithme de récupération des données à partir de l'API
+|   ├── Main.py                 
+|   ├── Visu.py                 # Définition de l'application dash et des différents visuels
 ├── templates/              # Modèles HTML pour le front-end
 ├── Data/                   # Données brutes ou fichiers de configuration
 |   ├── city.list.json
@@ -38,7 +38,7 @@ weather_pipeline/
 ├── Dockerfile              # Fichier Docker pour conteneuriser l'application
 ├── docker-compose.yml      # Configuration pour orchestrer MongoDB et Flask
 ├── requirements.txt        # Liste des dépendances Python
-└── README.md               # Description et utilisation du projet
+└── README.md              
 ```
 
 ### Installation
@@ -61,7 +61,7 @@ Rendez vous sur https://openweathermap.org/api pour vous créer un compte et dem
 ```
 
 
-### 1.2 Conteunarisation avec Docker
+### 1.2 Conteneurisation avec Docker
 Démarrez Docker Desktop <br>
 Dans un terminal python, positionnez-vous dans la racine du projet, lancez :
 
@@ -69,7 +69,9 @@ Dans un terminal python, positionnez-vous dans la racine du projet, lancez :
 docker-compose up --build
 ```
 
-Un conteneur va apparaître dans Docker Desktop, vous pouvez accéder au lien local du tableau de bord en cliquant dessus puis en appuyant sur le port de "pipeline_weather_4" (8050:8050)
+Un conteneur va apparaître dans Docker Desktop, vous pouvez accéder au lien local du tableau de bord en cliquant dessus puis en appuyant sur le port de "pipeline_weather-main" (8050:8050). <br>
+
+Sinon vous pouvez directement vous rendre sur http://localhost:8050/ dans votre navigateur. 
 
 ## 2. Fonctionnalité
 
