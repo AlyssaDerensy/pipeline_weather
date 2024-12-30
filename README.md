@@ -26,10 +26,11 @@ Voici la structure actuelle du projet :
 ```plaintext
 weather_pipeline/
 ├── app/
-|   ├── static/                 # Fichiers statiques comme la documentation
-|   |   ├── Data_MongoDB.py
-|   |   ├── Main.py
-|   |   ├── Visu.py
+|   ├── static/             # Fichiers statiques comme la documentation
+|   |   ├── documentation.pdf                 
+|   ├── Data_MongoDB.py
+|   ├── Main.py
+|   ├── Visu.py
 ├── templates/              # Modèles HTML pour le front-end
 ├── Data/                   # Données brutes ou fichiers de configuration
 |   ├── city.list.json
