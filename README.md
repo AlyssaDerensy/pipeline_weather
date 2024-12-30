@@ -3,10 +3,9 @@
 ## Description
 Ce projet consiste à créer un pipeline de données météorologiques en utilisant les technologies suivantes :
 - **Python**
-- **Flask** : pour exposer une API REST.
-- **MongoDB** : pour stocker les données météorologiques.
-- **Dash & Plotly** : pour analyser et visualiser les données à l'aide d'un tableau de bord interactif.
-- **Docker** : pour conteneuriser et déployer l'application.
+- **MongoDB** : Stockage des données météorologiques.
+- **Flask, Dash & Plotly** : Création de l'application, analyse et visualisation des données à l'aide d'un tableau de bord interactif.
+- **Docker** : Conteneurisation et déploiement l'application.
 
 L'objectif est de collecter des données météorologiques via l'API OpenWeather, de les stocker dans MongoDB, et de les rendre accessibles via une API REST avec des options de visualisation.
 
