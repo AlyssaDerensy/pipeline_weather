@@ -27,8 +27,13 @@ Voici la structure actuelle du projet :
 weather_pipeline/
 ├── app/
 |   ├── static/                 # Fichiers statiques comme la documentation
+|   |   ├── Data_MongoDB.py
+|   |   ├── Main.py
+|   |   ├── Visu.py
 ├── templates/              # Modèles HTML pour le front-end
 ├── Data/                   # Données brutes ou fichiers de configuration
+|   ├── city.list.json
+|   ├── ID_Ville_France.csv
 ├── Dockerfile              # Fichier Docker pour conteneuriser l'application
 ├── docker-compose.yml      # Configuration pour orchestrer MongoDB et Flask
 ├── requirements.txt        # Liste des dépendances Python
