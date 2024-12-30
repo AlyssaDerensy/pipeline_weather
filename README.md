@@ -32,7 +32,16 @@ cd weather_pipeline
 
 #### 2. Utilisation
 
-##### 2.1 Conteunarisation avec Docker
+##### 2.1 Ajout de l'API Key
+
+Rendez vous sur https://openweathermap.org/api pour vous créer un compte et demander une API Key, lorsque celle-ci est activée, dans le fichier "Data_MongoDB.py" (ligne 5), modifier cette ligne de code en remplaçant avec votre API Key :
+
+```Bash
+    API_KEY = "votre API KEY"
+```
+
+
+##### 2.2 Conteunarisation avec Docker
 Démarrez Docker Desktop <br>
 Dans un terminal python, positionnez-vous dans la racine du projet, lancez :
 
