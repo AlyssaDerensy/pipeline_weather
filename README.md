@@ -21,41 +21,7 @@ Assurez-vous d'avoir installé les outils suivants :
 3. **Docker Desktop** : Téléchargez depuis [docker.com](https://www.docker.com/products/docker-desktop).
 4. **IDE Python** : Comme Visual Studio Code depuis [code.visualstudio.com](https://code.visualstudio.com/).
 
-### Installation
-
-#### 1. Cloner le projet
-Cloner ce dépôt sur votre machine locale :
-```bash
-git clone https://github.com/AlyssaDerensy/pipeline_weather
-cd weather_pipeline
-```
-
-#### 2. Utilisation
-
-##### 2.1 Ajout de l'API Key
-
-Rendez vous sur https://openweathermap.org/api pour vous créer un compte et demander une API Key, lorsque celle-ci est activée, dans le fichier "Data_MongoDB.py" (ligne 5), modifier cette ligne de code en remplaçant avec votre API Key :
-
-```Bash
-    API_KEY = "votre API KEY"
-```
-
-
-##### 2.2 Conteunarisation avec Docker
-Démarrez Docker Desktop <br>
-Dans un terminal python, positionnez-vous dans la racine du projet, lancez :
-
-```bash
-docker-compose up --build
-```
-
-Un conteneur va apparaître dans Docker Desktop, vous pouvez accéder au lien local du tableau de bord en cliquant dessus puis en appuyant sur le port de "pipeline_weather_4" (8050:8050)
-
-#### 3. Fonctionnalité
-
-- Tableau de bord dynamique
-
-#### 3. Structure du projet
+### Structure du projet
 Voici la structure actuelle du projet :
 ```plaintext
 weather_pipeline/
@@ -67,6 +33,41 @@ weather_pipeline/
 ├── docker-compose.yml      # Configuration pour orchestrer MongoDB et Flask
 ├── requirements.txt        # Liste des dépendances Python
 └── README.md               # Description et utilisation du projet
+
+### Installation
+
+#### 1. Cloner le projet
+Cloner ce dépôt sur votre machine locale :
+```bash
+git clone https://github.com/AlyssaDerensy/pipeline_weather
+cd weather_pipeline
+```
+
+## 1. Utilisation
+
+### 1.1 Ajout de l'API Key
+
+Rendez vous sur https://openweathermap.org/api pour vous créer un compte et demander une API Key, lorsque celle-ci est activée, dans le fichier "Data_MongoDB.py" (ligne 5), modifier cette ligne de code en remplaçant avec votre API Key :
+
+```Bash
+    API_KEY = "votre API KEY"
+```
+
+
+### 1.2 Conteunarisation avec Docker
+Démarrez Docker Desktop <br>
+Dans un terminal python, positionnez-vous dans la racine du projet, lancez :
+
+```bash
+docker-compose up --build
+```
+
+Un conteneur va apparaître dans Docker Desktop, vous pouvez accéder au lien local du tableau de bord en cliquant dessus puis en appuyant sur le port de "pipeline_weather_4" (8050:8050)
+
+## 2. Fonctionnalité
+
+- Tableau de bord dynamique
+
 ```
 
 ---
